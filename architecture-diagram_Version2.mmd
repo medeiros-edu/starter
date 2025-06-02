@@ -1,0 +1,53 @@
+```mermaid
+graph TD
+    A[Iniciação & Descoberta com o Cliente] --> B(Fase 1: Implementação do Core EXECVUE)
+    B --> C{Integração por Sistema Corporativo}
+    C --> D[Fase 2: Implantação e Validação do Primeiro Sistema]
+    D --> E[Fase 3: Expansão & Otimização (Sistemas Subsequentes)]
+    E --> F[Fase 4: Insights Estratégicos Cruzados e Evolução Contínua]
+
+    subgraph Plataforma Web & Mobile
+        B -.-> B1(Desenvolvimento & Configuração da Plataforma Core)
+        B1 --> B2(Infraestrutura Cloud-Native & Segurança ISO 27001)
+        B2 --> B3(Módulos Base: Login, Gerenciamento de Usuários, Perfil)
+        B3 --> B4(Framework para Dashboards Dinâmicos & Alertas)
+        B4 --> B5(Framework HITL & Gestão de Alçadas)
+        B5 --> B6(Interface Web Responsiva & App Mobile (MVP))
+    end
+
+    subgraph Integração do Primeiro Sistema Corporativo (Ex: RH)
+        D --> D1(Coleta de Dados do Sistema Legado RH)
+        D1 --> D2(Definição e Validação de KPIs de RH)
+        D2 --> D3(Criação de Dashboard Básico de RH)
+        D3 --> D4(Criação de Sistema de Alertas para RH)
+        D4 --> D5(Automação de Tarefas Repetitivas RH (Sem Criticidade))
+        D5 --> D6(Automação de Tarefas RH Críticas (Com Alçadas & HITL))
+        D6 --> D7(Geração de Views Preditivas RH (6 e 12 meses))
+        D7 --> D8(Importação de Dados de Mercado RH & Relatórios Setoriais via LLM)
+        D8 --> D9(Sincronização de Relevância RH com o Setor Empresarial)
+        D9 --> D10(Validação e Feedback do Cliente RH)
+        D10 --> D11(Treinamento e Suporte de Equipes de RH)
+    end
+
+    subgraph Expansão para Sistemas Subsequentes (Ex: Financeiro, Compras, Vendas)
+        E --> E1(Repetição da Fase 2 para cada Novo Sistema)
+        E1 --> E2(Coleta de Dados do Novo Sistema Legado)
+        E2 --> E3(Definição e Validação de Novos KPIs)
+        E3 --> E4(Criação de Novos Dashboards e Alertas)
+        E4 --> E5(Expansão de Automações (Repetitivas e Críticas))
+        E5 --> E6(Geração de Novas Views Preditivas & Importação de Dados Externos)
+        E6 --> E7(Validação e Feedback do Cliente no Novo Sistema)
+        E7 --> E8(Treinamento e Suporte das Novas Equipes)
+    end
+
+    subgraph Geração de Novos Insights Estratégicos & Evolução
+        F --> F1(Cruzamento de Bases de Dados e KPIs Entre Sistemas)
+        F1 --> F2(Descoberta Automatizada de Novos Insights Estratégicos)
+        F2 --> F3(Modelagem Preditiva Avançada (Múltiplas Variáveis))
+        F3 --> F4(Otimização de Processos Automatizados com Base em Insights)
+        F4 --> F5(Refinamento e Adaptação dos Modelos de IA (ISO 42001))
+        F5 --> F6(Sessões Estratégicas Periódicas com Alta Administração)
+        F6 --> F7(Atualização Contínua de Mercado e Setorial via LLM)
+        F7 --> F8(Melhoria Contínua da Plataforma e Funcionalidades (ISO 27001, ISO 31000, ISO 42001))
+    end
+```
